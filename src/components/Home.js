@@ -54,9 +54,9 @@ export default function Home() {
 
                     <Menu />
 
-                    <div className="lg:flex justify-center items-center lg:py-20 py-6 lg:space-y-0 space-y-10">
+                    <div className="lg:flex justify-center items-center gap-x-56 lg:pt-20 lg:pb-28 py-6 lg:space-y-0 space-y-10">
 
-                        <div data-aos="fade-down-right" className="lg:w-5/12 w-full">
+                        <div data-aos="fade-down-right" className="">
 
                             <h1 className='md:text-10xl text-6xl tracking-tighter text-white-100 shadow-text font-nerko'>
                                 CAKE 6900
@@ -83,8 +83,8 @@ export default function Home() {
 
                         </div>
 
-                        <div data-aos="fade-down-left" className=" lg:space-y-0 space-y-8 lg:w-1/2">
-                            <img src={top} alt="Logo" className='lg:w-8/12 w-10/12 lg:float-right sm:flex mx-auto' />
+                        <div data-aos="fade-down-left" className=" lg:space-y-0 space-y-8">
+                            <img src={top} alt="Logo" className='lg:float-right sm:flex mx-auto lg:w-full w-10/12' />
                         </div>
 
                     </div>
@@ -98,7 +98,7 @@ export default function Home() {
 
                     <div className="lg:flex justify-center items-center lg:pt-24 py-6 lg:space-y-0 space-y-8">
 
-                        <div data-aos="fade-down-right" className="lg:w-1/2 w-full">
+                        <div data-aos="fade-down-right" className="lg:w-6/12">
 
                             <img src={star} alt="Logo" className='absolute lg:w-12 w-6 mt-32 left-0 lg:ml-5 animate-ping duration-100' />
 
@@ -134,8 +134,8 @@ export default function Home() {
 
                         </div>
 
-                        <div data-aos="zoom-in-up" className=" lg:space-y-0 space-y-8 lg:w-1/2">
-                            <img src={about} alt="Logo" className='w-11/12 lg:float-right sm:flex mx-auto' />
+                        <div data-aos="zoom-in-up" className=" lg:space-y-0 space-y-8 lg:w-5/12">
+                            <img src={about} alt="Logo" className='lg:float-right sm:flex mx-auto' />
                         </div>
 
                     </div>
