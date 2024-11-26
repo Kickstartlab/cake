@@ -54,9 +54,9 @@ export default function Home() {
 
                     <Menu />
 
-                    <div className="lg:flex justify-between items-center gap-x-12 lg:py-20 py-6 lg:space-y-0 space-y-10">
+                    <div className="lg:flex justify-center items-center lg:py-20 py-6 lg:space-y-0 space-y-10">
 
-                        <div data-aos="fade-down-right" className="lg:w-1/2 w-full">
+                        <div data-aos="fade-down-right" className="lg:w-5/12 w-full">
 
                             <h1 className='md:text-10xl text-6xl tracking-tighter text-white-100 shadow-text font-nerko'>
                                 CAKE 6900
@@ -96,7 +96,7 @@ export default function Home() {
             <div id='about' className="lg:px-20 px-5 bg-wave1 lg:-mt-20">
                 <div className='container mx-auto'>
 
-                    <div className="lg:flex justify-between items-center gap-x-12 lg:pt-24 py-6 lg:space-y-0 space-y-8">
+                    <div className="lg:flex justify-center items-center lg:pt-24 py-6 lg:space-y-0 space-y-8">
 
                         <div data-aos="fade-down-right" className="lg:w-1/2 w-full">
 
