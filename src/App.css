@@ -94,7 +94,7 @@ html{
 
 @media (min-width: 768px) {
   .md\:text-10xl {
-      font-size: 9rem /* 128px */;
+      font-size: 10.4rem /* 128px */;
       line-height: 1;
   }
 }
@@ -172,7 +172,6 @@ html{
 
 .sd-body ul li {
   list-style: none;
-  margin-bottom: 8px;
 }
 
 .sd-body ul li .sd-link {

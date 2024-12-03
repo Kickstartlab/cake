@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import top from '../assets/top.png';
-import wave3 from '../assets/wave1.png';
 import heart from '../assets/heart.png';
 import f_1 from '../assets/f_1.png';
 import f_2 from '../assets/f_2.png';
@@ -54,7 +53,7 @@ export default function Home() {
 
                     <Menu />
 
-                    <div className="lg:flex justify-center items-center gap-x-56 lg:pt-20 lg:pb-28 py-6 lg:space-y-0 space-y-10">
+                    <div className="lg:flex justify-center items-start gap-x-40 lg:pt-20 lg:pb-28 py-6 lg:space-y-0 space-y-10">
 
                         <div data-aos="fade-down-right" className="">
 
@@ -84,7 +83,7 @@ export default function Home() {
                         </div>
 
                         <div data-aos="fade-down-left" className=" lg:space-y-0 space-y-8">
-                            <img src={top} alt="Logo" className='lg:float-right sm:flex mx-auto lg:w-full w-10/12' />
+                            <img src={top} alt="Logo" className='lg:float-right sm:flex mx-auto lg:w-full w-11/12' />
                         </div>
 
                     </div>

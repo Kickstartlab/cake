@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import twitter from '../assets/twitter.png';
+import telegram1 from '../assets/telegram1.png';
+import pill from '../assets/pill.png';
+
 
 
 
@@ -32,9 +36,17 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <button className='bg-pink-100 border-2 border-black-50 py-2 px-5 rounded-full shadow-btn hover:scale-90 duration-100'>
-          Connect Wallet
-        </button>
+        <div className='flex items-center gap-3'>
+          <a href=''>
+            <img src={twitter} alt='twitter'></img>
+          </a>
+          <a href=''>
+            <img src={telegram1} alt='telegram1'></img>
+          </a>
+          <a href=''>
+            <img src={pill} alt='pill'></img>
+          </a>
+        </div>
 
       </div>
 
@@ -56,13 +68,25 @@ export default function Menu() {
             <i className="fa fa-times text-2xl text-white-100"></i></div>
 
           <div className="sd-body mt-20 font-fredoka">
-            <ul className='space-y-6 text-white-100 font-semibold'>
-              <li><a onClick={ToggleSidebar} href="#about" className="duration-100 hover:font-bold uppercase">about</a></li>
-              <li><a onClick={ToggleSidebar} href="#audit" className="duration-100 hover:font-bold uppercase">audit</a></li>
-              <li><a onClick={ToggleSidebar} href="#tokenomics" className="duration-100  hover:font-bold uppercase">tokenomics</a></li>
-              <li><a onClick={ToggleSidebar} href="#features" className=" duration-100 hover:font-bold uppercase">features</a></li>
-              <li><a onClick={ToggleSidebar} href="#faq" className=" duration-100 hover:font-bold">FAQ's</a></li>
-              <li><a onClick={ToggleSidebar} href="#faq" className=" duration-100 hover:font-bold">Connect Wallet</a></li>
+            <ul onClick={ToggleSidebar} className='space-y-8 text-white-100 font-semibold'>
+              <li><a href="#about" className="duration-100 hover:font-bold uppercase">about</a></li>
+              <li><a href="#audit" className="duration-100 hover:font-bold uppercase">audit</a></li>
+              <li><a href="#tokenomics" className="duration-100  hover:font-bold uppercase">tokenomics</a></li>
+              <li><a href="#features" className="duration-100 hover:font-bold uppercase">features</a></li>
+              <li><a href="#faq" className=" duration-100 hover:font-bold">FAQ's</a></li>
+              <li>
+                <div className='flex items-center gap-3'>
+                  <a href=''>
+                    <img src={twitter} alt='twitter'></img>
+                  </a>
+                  <a href=''>
+                    <img src={telegram1} alt='telegram1'></img>
+                  </a>
+                  <a href=''>
+                    <img src={pill} alt='pill'></img>
+                  </a>
+                </div>
+              </li>
             </ul>
           </div>
 
