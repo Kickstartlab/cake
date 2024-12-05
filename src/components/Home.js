@@ -53,13 +53,17 @@ export default function Home() {
 
                     <Menu />
 
-                    <div className="lg:flex justify-center items-start gap-x-40 lg:pt-20 lg:pb-28 py-6 lg:space-y-0 space-y-10">
+                    <div className="lg:flex justify-center items-start gap-x-8 lg:pt-20 lg:pb-28 py-6 lg:space-y-0 space-y-10">
 
-                        <div data-aos="fade-down-right" className="">
+                        <div data-aos="fade-right" className="">
 
-                            <h1 className='md:text-10xl text-6xl tracking-tighter text-white-100 shadow-text font-nerko'>
-                                CAKE 6900
-                            </h1>
+                            <div className='flex items-start gap-x-8'>
+                                <h1 className='md:text-10xl text-6xl tracking-tighter text-white-100 shadow-text font-nerko'>
+                                    CAKE 6900
+                                </h1>
+
+                                <img data-aos="fade-in" data-aos-delay='150' src={stars} alt="stars" className='lg:w-40' />
+                            </div>
 
                             <p className='py-6'>
                                 Become a cornerstone of the foxy movement. Let's create a world<br></br>
@@ -82,7 +86,7 @@ export default function Home() {
 
                         </div>
 
-                        <div data-aos="fade-down-left" className=" lg:space-y-0 space-y-8">
+                        <div data-aos="fade-left" className=" lg:space-y-0 space-y-8">
                             <img src={top} alt="Logo" className='lg:float-right sm:flex mx-auto lg:w-full w-11/12' />
                         </div>
 
@@ -274,7 +278,7 @@ export default function Home() {
                         <img data-aos='zoom-in' src={heart} alt='heart' className='flex mx-auto lg:w-64 w-36'></img>
 
                         <p data-aos='fade-in' className='md:text-5xl text-3xl text-pink-100 font-nerko'>
-                        Who Can Resist To These
+                            Who Can Resist To These
                         </p>
                         <h3 data-aos='fade-in' className='md:text-8xl text-5xl tracking-tighter text-white-100 shadow-text font-nerko'>
                             Delicious Features
@@ -302,7 +306,7 @@ export default function Home() {
                         <div data-aos='fade-up' data-aos-delay='250' className='space-y-4 border-2 border-black-100 rounded-3xl py-8 px-5 lg:w-80'>
                             <img src={f_3} alt='feature' className='lg:absolute lg:-mt-32 lg:ml-36 md:w-36 w-28'></img>
                             <h5 className='font-nerko md:text-3xl text-2xl'>Exciting
-                            Tasting Events</h5>
+                                Tasting Events</h5>
                             <p>
                                 Vorem ipsum dolor sit amet, consectetur adipiscing elit.Vorem ipsum dolor sit amet, consectetur adipiscing elit.Vorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </p>
