@@ -62,7 +62,7 @@ export default function Home() {
                                     CAKE 6900
                                 </h1>
 
-                                <img data-aos="fade-in" data-aos-delay='150' src={stars} alt="stars" className='lg:w-40' />
+                                <img data-aos="fade-in" data-aos-delay='150' src={stars} alt="stars" className='lg:w-40 lg:block hidden' />
                             </div>
 
                             <p className='py-6'>
